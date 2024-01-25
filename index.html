@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>App calculator</title>
+</head>
+<body>
+    <main>
+        <div class="headerMain">
+            <div class="dayGroup">
+                <p>Day</p>
+                <input type="number" name="date_day" id="day">
+            </div>
+            <div class="monthGroup">
+                <p>Month (numbers)</p>
+                <input type="number" name="date_month" id="month">
+            </div>
+            <div class="yearGroup">
+                <p>Year</p>
+                <input type="number" name="date_year" id="year">
+            </div>
+        </div>
+        <div class="headerButton" name="headerButton" onclick="CalculateYear()"><img src="./img/icon calculator.png" alt="icon-calcular"></div>
+        <div class="headerContainer">
+            <p><span id="numberYears">#</span> Years</p>
+            <p><span id="numberMonths">#</span> Months</p>
+            <p><span id="numberDays">#</span> Days</p>
+        </div>
+    </main>
+</body>
+<script src="main.js"></script>
+</html>
